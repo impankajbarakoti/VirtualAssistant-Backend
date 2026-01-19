@@ -54,7 +54,7 @@ import geminiResponse from "./gemini.js";
 const app = express();
 app.use(
   cors({
-    origin: "https://frntvirtualai.netlify.app/",  //ok
+    origin: "https://frntvirtualai.netlify.app",  //ok
     credentials: true,
   }),
 );
